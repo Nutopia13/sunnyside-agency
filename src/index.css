@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cart{
+    display: grid;
+    grid-template-areas: 
+    'text1 img1'
+    'img2 text2'
+    'img3 img4';
+}
+
+.text1{
+    grid-area: text1;
+    max-height: 600px;
+}
+
+.img1{
+    grid-area: img1;
+    min-height: 600px;
+    width: auto;
+}
+
+.img2{
+    grid-area: img2;
+    max-height: 600px;
+    width: auto;
+}
+
+.text2{
+    grid-area: text2;
+    max-height: 600px;
+    width: auto;
+}
+
+.img3{
+    grid-area: img3;
+    min-height: 600px;
+    width: auto;
+}
+
+.img4{
+    grid-area: img4;
+    min-height: 600px;
+    width: auto;
+}
+
+.text_cont{
+    text-align: left;
+    max-width: 380px ;
+    max-height: 285px;
+}
+
+.text_cont_mob{
+    margin-top: 64px;
+    text-align: center;
+    min-height: 308px;
+    max-width: 290px;
+
+}
+
+.cart_mobile{
+    display: grid;
+    grid-template-areas: 
+    'img1'
+    'text1'
+    'img2'
+    'text2'
+    'img3'
+    'img4' ;
+}
+
+.cart_img1{
+    grid-area: img1;
+    min-height: 312px;
+    width: auto;
+}
+.cart_img2{
+    grid-area: img2;
+    min-height: 312px;
+    width: auto;
+}
+.cart_img3{
+    grid-area: img3;
+    min-height: 312px;
+    width: auto;
+}
+.cart_img4{
+    grid-area: img4;
+    min-height: 312px;
+    width: auto;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer img:hover{
+    cursor: pointer;
+    fill: white;
+}
+
+.line{
+    border-radius: 28px;
+    border: 5px solid hsl(51, 100%, 49%);
+    opacity: 0.25;
+}
+
+.line:hover{
+    border: 5px solid hsl(51, 100%, 49%);
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.line_2{
+    border-radius: 28px;
+    border: 5px solid hsl(7, 99%, 70%);
+    opacity: 0.25;
+}
+
+.line_2:hover{
+    border: 5px solid hsl(7, 99%, 70%);
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.line_mob{
+    border-radius: 28px;
+    border: 5px solid hsl(51, 100%, 49%);
+    opacity: 0.25;
+}
+
+.line_mob_2{
+    border-radius: 28px;
+    border: 5px solid hsl(7, 99%, 70%);
+    opacity: 0.25;
+}
