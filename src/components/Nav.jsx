@@ -14,9 +14,9 @@ const Nav = () => {
       </div>
       <div>
         <ul className={`xs:hidden lg:block font-barlow font-semibold text-white inline-block`}>
-            <li className='inline-block pr-12'><a href="#">About</a></li>
-            <li className='inline-block pr-12'><a href="#">Services</a></li>
-            <li className='inline-block pr-12'><a href="#">Projects</a></li>
+            <li className='inline-block pr-12'><a className='nav_link' href="#">About</a></li>
+            <li className='inline-block pr-12'><a className='nav_link' href="#">Services</a></li>
+            <li className='inline-block pr-12'><a className='nav_link' href="#">Projects</a></li>
             <button className={`${styles.btn1} ease-in duration-100 inline-block`}>Contact</button>
         </ul>
         
