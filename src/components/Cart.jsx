@@ -16,8 +16,8 @@ const Cart = () => {
         <div className='text_cont'>
           <h1 className={`${styles.heading2} leading-[49px] tracking-tighter`}>Transform your brand</h1>
           <p className={`${styles.cart_p} pt-[9px] pb-[63px]`}>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-          <button className= {`${styles.btn2} `}>Learn More</button>
-          <div className='line relative bottom-2 lg:max-w-[137px] lg:max-h-[10px]'></div>
+          <button className= {`${styles.btn2} relative z-20`}>Learn More</button>
+          <div className='line relative z-10 bottom-2 lg:max-w-[137px] lg:max-h-[10px]'></div>
         </div>
       </div>
       <div className="img1 max-h-[312px]"  style={{  
@@ -39,8 +39,8 @@ const Cart = () => {
         <div className="text_cont ">
           <h1 className={`${styles.heading2} leading-[49px] tracking-tighter`}>Stand out to the right audience</h1>
           <p className={`${styles.cart_p} pt-[9px] pb-[63px]`}>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-          <button className= {`${styles.btn2} z-10`}>Learn More</button>
-          <div className='line_2 relative bottom-2  lg:max-w-[137px] lg:max-h-[10px]'></div>
+          <button className= {`${styles.btn2} relative z-20`}>Learn More</button>
+          <div className='line_2 relative z-10 bottom-2  lg:max-w-[137px] lg:max-h-[10px]'></div>
         </div>
       </div>
       <div className="img3 text-center  flex justify-center items-center flex-col" style={{  

@@ -140,3 +140,27 @@ footer img:hover{
     border: 5px solid hsl(7, 99%, 70%);
     opacity: 0.25;
 }
+
+
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 40px;
+  }
+
+  .header__links {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+  }
+  
+  .header__link {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .header___hamburger {
+    display: none;
+  }
+  

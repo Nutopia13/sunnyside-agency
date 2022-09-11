@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <nav className='flex justify-between mt-[32px]'>
       <div className='self-center'>
-        <img src={logo} alt="" />
+        <img src={logo} alt="" onclick='toggleMenu()' />
       </div>
       <div className='lg:hidden pl-[179px]'>
         <img src={hamb} alt="" />
