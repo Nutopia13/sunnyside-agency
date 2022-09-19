@@ -2,15 +2,19 @@ import React from 'react'
 import styles from '../style'
 import logo from '../assets/logo.svg'
 import hamb from '../assets/icon-hamburger.svg'
+import NavPopup from './NavPopup'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [open, setOpen] = useState(false)
   return (
+  <div>
     <nav className='flex justify-between mt-[32px]'>
       <div className='self-center'>
-        <img src={logo} alt="" onclick='toggleMenu()' />
+        <img src={logo} alt="" />
       </div>
-      <div className='lg:hidden pl-[179px]'>
-        <img src={hamb} alt="" />
+      <div className='hamb  lg:hidden pl-[179px]'>
+        <img src={hamb} alt="" onClick={() => setOpen(!open)} />
       </div>
       <div>
         <ul className={`xs:hidden lg:block font-barlow font-semibold text-white inline-block`}>
@@ -21,8 +25,11 @@ const Nav = () => {
         </ul>
         
       </div>
+  
 
     </nav>
+    {open && <NavPopup />}
+  </div>
 
   )
 }

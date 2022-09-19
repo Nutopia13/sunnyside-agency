@@ -9,6 +9,8 @@ import styles from './style'
 import background from './assets/desktop/image-header.jpg'
 import Cart_Mobile from './components/Cart_Mobile'
 import Photo_Mobile from './components/Photo_Mobile'
+import NavPopup from './components/NavPopup'
+
 
 function App() {
   return (

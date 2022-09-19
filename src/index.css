@@ -157,3 +157,9 @@ footer img:hover{
     transition: 200ms ease-in;
     transform: scaleX(1);
 }
+
+.nav_container{
+    transition: ;
+    margin-top: 26px;
+    clip-path: polygon(100% 100%, 100% 0%, 96% 12%, 100% 0, 94% 9%, 0 9%, 0 100%);
+}

@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='text-center min-h-[538px] max-h-[800px] grid justify-center'>
 
      <div>
-       <h1 className={`${styles.heading1} relative top-[88px] lg:top-[105px] tracking-[6.25px] lg:tracking-[8.75px]`}>WE ARE CREATIVE</h1>
+       <h1 className={`${styles.heading1} relative z-0 top-[88px] lg:top-[105px] tracking-[6.25px] lg:tracking-[8.75px]`}>WE ARE CREATIVE</h1>
      </div>
 
      <div>
