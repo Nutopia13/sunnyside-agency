@@ -50,7 +50,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ## Author
 
 - Website - [Vladyslav Nechytailo](https://www.littlethingsportfolio.com/)
-- Frontend Mentor - [@Nutopia13](https://www.frontendmentor.io/solutions/taiwind-css-and-react-ReRdqaHKyVe)
+- Frontend Mentor - [@Nutopia13](https://www.frontendmentor.io/profile/Nutopia13)
 - Twitter - [@V_Nechytailo](https://twitter.com/V_Nechytailo)
 
 
